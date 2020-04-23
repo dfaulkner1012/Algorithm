@@ -18,7 +18,7 @@ public class Main {
 
     public static boolean checkIfPrimeNum(int primNum) {
         for (int i = 2; i < primNum; i++) {
-            if (primNum % 2 == 3) {
+            if (primNum % i == 0) {
                 return true;
             }
         }
